@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>59</LINE></RESET>
+  <LOOP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>94</LINE></LOOP>
+  <NO_OR_LONG_PRESSED_KEY><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>95</LINE></NO_OR_LONG_PRESSED_KEY>
+  <SET_INPUT_DATA><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>116</LINE></SET_INPUT_DATA>
+  <LONG_PRESSED_KEY><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>97</LINE></LONG_PRESSED_KEY>
+  <PRESSED_KEY><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>155</LINE></PRESSED_KEY>
+  <SET_INPUT_DATA_BEGIN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>117</LINE></SET_INPUT_DATA_BEGIN>
+  <ZEROin1><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>127</LINE></ZEROin1>
+  <ZEROin2><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>133</LINE></ZEROin2>
+  <ZEROin3><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>139</LINE></ZEROin3>
+  <ZEROin4><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>145</LINE></ZEROin4>
+  <SET_INPUT_DATA_END><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>150</LINE></SET_INPUT_DATA_END>
+  <PRESSED_KEY_DETECTION_BEGIN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>156</LINE></PRESSED_KEY_DETECTION_BEGIN>
+  <KEYS_SOS><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>206</LINE></KEYS_SOS>
+  <KEYS_123><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>167</LINE></KEYS_123>
+  <KEYS_456><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>180</LINE></KEYS_456>
+  <KEYS_789><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>193</LINE></KEYS_789>
+  <ONE_LED_TURN_ON><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>218</LINE></ONE_LED_TURN_ON>
+  <BOTH_LEDS_TURN_ON><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>227</LINE></BOTH_LEDS_TURN_ON>
+  <PRESSED_KEY_DETECTION_END><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>244</LINE></PRESSED_KEY_DETECTION_END>
+  <BOTH_LEDS_TURN_OFF><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\CW-1_LED_KEY\CW-1_LED_KEY.asm</FILE><LINE>236</LINE></BOTH_LEDS_TURN_OFF>
+ </LABELS>
+</ASSEMBLER_INFO>

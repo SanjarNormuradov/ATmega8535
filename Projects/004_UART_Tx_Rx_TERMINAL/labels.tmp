@@ -1,0 +1,46 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>67</LINE></RESET>
+  <LOOP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>127</LINE></LOOP>
+  <USART_RECEIVE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>128</LINE></USART_RECEIVE>
+  <USART_RX_DATA><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>160</LINE></USART_RX_DATA>
+  <USART_TRANSMIT><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>133</LINE></USART_TRANSMIT>
+  <NOISE_DELAY><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>147</LINE></NOISE_DELAY>
+  <DELAY_BEGIN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>150</LINE></DELAY_BEGIN>
+  <USART_RX_DATA_BEGIN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>161</LINE></USART_RX_DATA_BEGIN>
+  <USART_FRAME_PARITY_OVERRUN_ERRORS><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>170</LINE></USART_FRAME_PARITY_OVERRUN_ERRORS>
+  <USART_RX_DATA_END><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>173</LINE></USART_RX_DATA_END>
+  <USART_DRE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>180</LINE></USART_DRE>
+  <USART_DRE_HANDLER_BEGIN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>181</LINE></USART_DRE_HANDLER_BEGIN>
+  <USART_NO_DATA_OVERRUN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>188</LINE></USART_NO_DATA_OVERRUN>
+  <USART_DRE_HANDLER_END><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>190</LINE></USART_DRE_HANDLER_END>
+  <USART_TXC><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>201</LINE></USART_TXC>
+  <USART_RXC><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>214</LINE></USART_RXC>
+  <USART_RXC_HANDLER_BEGIN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>215</LINE></USART_RXC_HANDLER_BEGIN>
+  <USART_RXC_HANDLER_END><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>226</LINE></USART_RXC_HANDLER_END>
+  <EXT_INT0><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>232</LINE></EXT_INT0>
+  <EXT_INT0_HANDLER_BEGIN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>233</LINE></EXT_INT0_HANDLER_BEGIN>
+  <USART_TRANSFER_DISABLE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>250</LINE></USART_TRANSFER_DISABLE>
+  <USART_TRANSFER_ENABLE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>241</LINE></USART_TRANSFER_ENABLE>
+  <EXT_INT0_HANDLER_END><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\004_UART_Tx_Rx_TERMINAL\004_UART_Tx_Rx_TERMINAL.asm</FILE><LINE>266</LINE></EXT_INT0_HANDLER_END>
+ </LABELS>
+</ASSEMBLER_INFO>

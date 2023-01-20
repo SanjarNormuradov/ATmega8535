@@ -1,0 +1,218 @@
+				;	Send Fractional Part Of Result	
+				RESULT_FRACTIONAL_PART_SEND:
+					;	0.Xxxxxxxx
+					LSL ADC_DRL
+					BRCS FR1_56789
+					;	0.0xxxxxxx
+					FR1_01234:
+						;	0.0Xxxxxxx
+						LSL ADC_DRL
+						BRCS FR1_01234_FR1_234
+						;	0.00xxxxxx
+						FR1_01234_FR1_01:
+							;	0.00Xxxxxx
+							LSL ADC_DRL
+							BRCS FR1_01234_FR1_01_FR1_1
+							;	0.000xxxxx
+							FR1_01234_FR1_01_FR1_0:
+								;	0.000Xxxxx
+								LSL ADC_DRL
+								BRCS FR1_01234_FR1_01_FR1_0_FR2_6
+								;	0.0000xxxx
+								FR1_01234_FR1_01_FR1_0_FR2_0:
+									;	Send 2nd Digit(=0) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_0
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=0) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_0
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END								
+								;	0.0001xxxx
+								FR1_01234_FR1_01_FR1_0_FR2_6:
+									;	Send 2nd Digit(=0) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_0
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=6) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_6
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END
+							;	0.001xxxxx
+							FR1_01234_FR1_01_FR1_1:
+								;	0.001Xxxxx
+								LSL ADC_DRL
+								BRCS 	FR1_01234_FR1_01_FR1_1_FR2_8
+								;	0.0010xxxx
+								FR1_01234_FR1_01_FR1_1_FR2_2:
+									;	Send 2nd Digit(=1) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_1
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=2) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_2
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END								
+								;	0.0011xxxx
+								FR1_01234_FR1_01_FR1_1_FR2_8:
+									;	Send 2nd Digit(=1) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_1
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=8) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_8
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END									
+						;	0.01xxxxxx
+						FR1_01234_FR1_234:
+							;	0.01Xxxxxx
+							LSL ADC_DRL
+							BRCS FR1_01234_FR1_234_FR1_34
+							;	0.010xxxxx
+							FR1_01234_FR1_234_FR1_23:
+								;	0.100Xxxxx
+								LSL ADC_DRL
+								BRCS FR1_01234_FR1_234_FR1_23_FR1_3
+								;	0.0100xxxx
+								FR1_01234_FR1_234_FR1_23_FR1_2:
+									;	Send 2nd Digit(=2) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_2
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=5) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_5
+									RCALL SERIAL_TRANSFER								
+									RJMP SENDING_END
+								;	0.0101xxxx
+								FR1_01234_FR1_234_FR1_23_FR1_3:
+									;	Send 2nd Digit(=3) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_3
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=1) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_1
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END
+							;	0.011xxxxx
+							FR1_01234_FR1_234_FR1_34:
+								;	0.011Xxxxx
+								LSL ADC_DRL
+								BRCS 	FR1_01234_FR1_234_FR1_34_FR1_4
+								;	0.0110xxxx
+								FR1_01234_FR1_234_FR1_34_FR1_3:
+									;	Send 2nd Digit(=3) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_3
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=7) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_7
+									RCALL SERIAL_TRANSFER								
+									RJMP SENDING_END
+								;	0.0111xxxx
+								FR1_01234_FR1_234_FR1_34_FR1_4:
+									;	Send 2nd Digit(=4) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_4
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=3) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_8
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END									
+					;	0.1xxxxxxx
+					FR1_56789:
+						;	0.1Xxxxxxx
+						LSL ADC_DRL
+						BRCS FR1_56789_FR1_789
+						;	0.10xxxxxx
+						FR1_56789_FR1_56:
+							;	0.10Xxxxxx
+							LSL ADC_DRL
+							BRCS FR1_56789_FR1_56_FR1_6
+							;	0.100xxxxx
+							FR1_56789_FR1_56_FR1_5:
+								;	0.100Xxxxx
+								LSL ADC_DRL
+								BRCS FR1_56789_FR1_56_FR1_5_FR2_6
+								;	0.1000xxxx
+								FR1_56789_FR1_56_FR1_5_FR2_0:
+									;	Send 2nd Digit(=5) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_5
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=0) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_0
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END								
+								;	0.1001xxxx
+								FR1_56789_FR1_56_FR1_5_FR2_6:
+									;	Send 2nd Digit(=5) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_5
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=6) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_6
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END
+							;	0.101xxxxx
+							FR1_56789_FR1_56_FR1_6:
+								;	0.101Xxxxx
+								LSL ADC_DRL
+								BRCS FR1_56789_FR1_56_FR1_6_FR2_8
+								;	0.1010xxxx
+								FR1_56789_FR1_56_FR1_6_FR2_2:
+									;	Send 2nd Digit(=6) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_6
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=2) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_2
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END								
+								;	0.1011xxxx
+								FR1_56789_FR1_56_FR1_6_FR2_8:
+									;	Send 2nd Digit(=6) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_6
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=8) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_8
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END
+						;	0.11xxxxxx
+						FR1_56789_FR1_789:
+							;	0.11Xxxxxx
+							LSL ADC_DRL
+							BRCS FR1_56789_FR1_789_FR1_89
+							;	0.110xxxxx
+							FR1_56789_FR1_789_FR1_78:
+								;	0.110Xxxxx
+								LSL ADC_DRL
+								BRCS FR1_56789_FR1_789_FR1_78_FR1_8
+								;	0.1100xxxx
+								FR1_56789_FR1_789_FR1_78_FR1_7:
+									;	Send 2nd Digit(=7) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_7
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=5) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_5
+									RCALL SERIAL_TRANSFER								
+									RJMP SENDING_END
+								;	0.1101xxxx
+								FR1_56789_FR1_789_FR1_78_FR1_8:
+									;	Send 2nd Digit(=8) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_8
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=1) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_1
+									RCALL SERIAL_TRANSFER
+									RJMP SENDING_END
+							;	0.111xxxxx
+							FR1_56789_FR1_789_FR1_89:
+								;	0.111Xxxxx
+								LSL ADC_DRL
+								BRCS FR1_56789_FR1_789_FR1_89_FR1_9
+								;	0.1110xxxx
+								FR1_56789_FR1_789_FR1_89_FR1_8:
+									;	Send 2nd Digit(=8) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_8
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=7) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_7
+									RCALL SERIAL_TRANSFER								
+									RJMP SENDING_END
+								;	0.1111xxxx
+								FR1_56789_FR1_789_FR1_89_FR1_9:
+									;	Send 2nd Digit(=9) To 2nd Indicator
+									LDI OUTPUT_DATA, DIGIT_9
+									RCALL SERIAL_TRANSFER
+									;	Send 3rd Digit(=3) To 3rd Indicator
+									LDI OUTPUT_DATA, DIGIT_3
+									RCALL SERIAL_TRANSFER

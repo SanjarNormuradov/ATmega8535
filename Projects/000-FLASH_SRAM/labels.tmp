@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM\000-FLASH_SRAM.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM\000-FLASH_SRAM.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM\000-FLASH_SRAM.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM\000-FLASH_SRAM.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM\000-FLASH_SRAM.asm</FILE><LINE>17</LINE></RESET>
+  <FLASH_ADD100_6BYTES_SRAM_ADD150><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM\000-FLASH_SRAM.asm</FILE><LINE>25</LINE></FLASH_ADD100_6BYTES_SRAM_ADD150>
+  <TRANSFER_6BYTES><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM\000-FLASH_SRAM.asm</FILE><LINE>37</LINE></TRANSFER_6BYTES>
+  <SRAM_ADD150_10BYTES_EEPROM_ADD100><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM\000-FLASH_SRAM.asm</FILE><LINE>53</LINE></SRAM_ADD150_10BYTES_EEPROM_ADD100>
+  <EEPROM_WRITE_10BYTES><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\000-FLASH_SRAM\000-FLASH_SRAM.asm</FILE><LINE>67</LINE></EEPROM_WRITE_10BYTES>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,84 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>69</LINE></RESET>
+  <EXT_INT0><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>558</LINE></EXT_INT0>
+  <EXT_INT1><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>576</LINE></EXT_INT1>
+  <TIM1_COMPB><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>615</LINE></TIM1_COMPB>
+  <ADC_COMP><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>596</LINE></ADC_COMP>
+  <SEGMENTS_SLEEP_MODE><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>182</LINE></SEGMENTS_SLEEP_MODE>
+  <LOOP><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>160</LINE></LOOP>
+  <NOISE_DELAY><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>168</LINE></NOISE_DELAY>
+  <DELAY_BEGIN><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>171</LINE></DELAY_BEGIN>
+  <SLEEP_MODE_BEGIN><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>185</LINE></SLEEP_MODE_BEGIN>
+  <SEND_1ST_DIGIT><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>194</LINE></SEND_1ST_DIGIT>
+  <SERIAL_TRANSFER><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>203</LINE></SERIAL_TRANSFER>
+  <TRANSFER_BEGIN><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>205</LINE></TRANSFER_BEGIN>
+  <SEND_1><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>216</LINE></SEND_1>
+  <SEND_0><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>208</LINE></SEND_0>
+  <TRANSFER_END><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>223</LINE></TRANSFER_END>
+  <ADC_RESULT_SEND><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>226</LINE></ADC_RESULT_SEND>
+  <SENDING_BEGIN><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>227</LINE></SENDING_BEGIN>
+  <RESULT_0V><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>240</LINE></RESULT_0V>
+  <RESULT_5V><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>257</LINE></RESULT_5V>
+  <ANY_OTHER_RESULT><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>274</LINE></ANY_OTHER_RESULT>
+  <SENDING_END><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>539</LINE></SENDING_END>
+  <SHIFT_LEFT_x6><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>277</LINE></SHIFT_LEFT_x6>
+  <SHIFT_RIGHT_x2><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>283</LINE></SHIFT_RIGHT_x2>
+  <RESULT_WHOLE_PART_SEND><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>293</LINE></RESULT_WHOLE_PART_SEND>
+  <WHOLE_4><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>317</LINE></WHOLE_4>
+  <WHOLE_3><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>314</LINE></WHOLE_3>
+  <WHOLE_2><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>311</LINE></WHOLE_2>
+  <WHOLE_1><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>308</LINE></WHOLE_1>
+  <WHOLE_0><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>305</LINE></WHOLE_0>
+  <RESULT_FRACTIONAL_PART_SEND><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>321</LINE></RESULT_FRACTIONAL_PART_SEND>
+  <FR1_56789><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>433</LINE></FR1_56789>
+  <FR1_01234><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>326</LINE></FR1_01234>
+  <FR1_01234_FR1_234><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>382</LINE></FR1_01234_FR1_234>
+  <FR1_01234_FR1_01><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>331</LINE></FR1_01234_FR1_01>
+  <FR1_01234_FR1_01_FR1_1><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>359</LINE></FR1_01234_FR1_01_FR1_1>
+  <FR1_01234_FR1_01_FR1_0><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>336</LINE></FR1_01234_FR1_01_FR1_0>
+  <FR1_01234_FR1_01_FR1_0_FR2_6><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>350</LINE></FR1_01234_FR1_01_FR1_0_FR2_6>
+  <FR1_01234_FR1_01_FR1_0_FR2_0><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>341</LINE></FR1_01234_FR1_01_FR1_0_FR2_0>
+  <FR1_01234_FR1_01_FR1_1_FR2_8><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>373</LINE></FR1_01234_FR1_01_FR1_1_FR2_8>
+  <FR1_01234_FR1_01_FR1_1_FR2_2><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>364</LINE></FR1_01234_FR1_01_FR1_1_FR2_2>
+  <FR1_01234_FR1_234_FR1_34><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>410</LINE></FR1_01234_FR1_234_FR1_34>
+  <FR1_01234_FR1_234_FR1_23><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>387</LINE></FR1_01234_FR1_234_FR1_23>
+  <FR1_01234_FR1_234_FR1_23_FR1_3><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>401</LINE></FR1_01234_FR1_234_FR1_23_FR1_3>
+  <FR1_01234_FR1_234_FR1_23_FR1_2><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>392</LINE></FR1_01234_FR1_234_FR1_23_FR1_2>
+  <FR1_01234_FR1_234_FR1_34_FR1_4><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>424</LINE></FR1_01234_FR1_234_FR1_34_FR1_4>
+  <FR1_01234_FR1_234_FR1_34_FR1_3><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>415</LINE></FR1_01234_FR1_234_FR1_34_FR1_3>
+  <FR1_56789_FR1_789><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>489</LINE></FR1_56789_FR1_789>
+  <FR1_56789_FR1_56><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>438</LINE></FR1_56789_FR1_56>
+  <FR1_56789_FR1_56_FR1_6><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>466</LINE></FR1_56789_FR1_56_FR1_6>
+  <FR1_56789_FR1_56_FR1_5><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>443</LINE></FR1_56789_FR1_56_FR1_5>
+  <FR1_56789_FR1_56_FR1_5_FR2_6><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>457</LINE></FR1_56789_FR1_56_FR1_5_FR2_6>
+  <FR1_56789_FR1_56_FR1_5_FR2_0><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>448</LINE></FR1_56789_FR1_56_FR1_5_FR2_0>
+  <FR1_56789_FR1_56_FR1_6_FR2_8><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>480</LINE></FR1_56789_FR1_56_FR1_6_FR2_8>
+  <FR1_56789_FR1_56_FR1_6_FR2_2><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>471</LINE></FR1_56789_FR1_56_FR1_6_FR2_2>
+  <FR1_56789_FR1_789_FR1_89><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>517</LINE></FR1_56789_FR1_789_FR1_89>
+  <FR1_56789_FR1_789_FR1_78><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>494</LINE></FR1_56789_FR1_789_FR1_78>
+  <FR1_56789_FR1_789_FR1_78_FR1_8><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>508</LINE></FR1_56789_FR1_789_FR1_78_FR1_8>
+  <FR1_56789_FR1_789_FR1_78_FR1_7><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>499</LINE></FR1_56789_FR1_789_FR1_78_FR1_7>
+  <FR1_56789_FR1_789_FR1_89_FR1_9><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>531</LINE></FR1_56789_FR1_789_FR1_89_FR1_9>
+  <FR1_56789_FR1_789_FR1_89_FR1_8><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\003_ADC_POTEN_SEG\003_ADC_POTEN_SEG.asm</FILE><LINE>522</LINE></FR1_56789_FR1_789_FR1_89_FR1_8>
+ </LABELS>
+</ASSEMBLER_INFO>

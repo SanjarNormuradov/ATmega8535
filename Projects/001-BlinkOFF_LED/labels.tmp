@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>25</LINE></RESET>
+  <EXT_INT0><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>108</LINE></EXT_INT0>
+  <LOOP><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>50</LINE></LOOP>
+  <LED_BLINKING_CONTROL><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>72</LINE></LED_BLINKING_CONTROL>
+  <NOISE_DELAY><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>59</LINE></NOISE_DELAY>
+  <DELAY1><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>62</LINE></DELAY1>
+  <START_BLINKING><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>74</LINE></START_BLINKING>
+  <DELAY><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>89</LINE></DELAY>
+  <END_BLINKING><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>84</LINE></END_BLINKING>
+  <DELAY2><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>93</LINE></DELAY2>
+  <LED_BLINKING_OFF><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>122</LINE></LED_BLINKING_OFF>
+  <END_EXT_INT0><FILE>D:\Digital ElectronicsSchemotechnics\AVR Studio projects\001-BlinkOFF_LED\001-BlinkOFF_LED.asm</FILE><LINE>125</LINE></END_EXT_INT0>
+ </LABELS>
+</ASSEMBLER_INFO>

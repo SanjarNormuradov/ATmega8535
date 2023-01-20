@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.asm</FILE><LINE>24</LINE></RESET>
+  <EXT_INT0><FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.asm</FILE><LINE>52</LINE></EXT_INT0>
+  <LOOP><FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.asm</FILE><LINE>47</LINE></LOOP>
+  <DELAY><FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.asm</FILE><LINE>76</LINE></DELAY>
+  <LED_OFF><FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.asm</FILE><LINE>66</LINE></LED_OFF>
+  <LED_ON><FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.asm</FILE><LINE>63</LINE></LED_ON>
+  <END_EXT_INT0><FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.asm</FILE><LINE>69</LINE></END_EXT_INT0>
+  <DELAY1><FILE>D:\Digital Electronics&Schemotechnics\AVR Studio projects\001\001-ButttonLED\001-ButtonLED.asm</FILE><LINE>79</LINE></DELAY1>
+ </LABELS>
+</ASSEMBLER_INFO>

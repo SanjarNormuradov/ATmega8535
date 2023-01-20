@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\001-BlinkLEDwithTimer</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\001-BlinkLEDwithTimer\001-BlinkLEDwithTimer.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\001-BlinkLEDwithTimer\001-BlinkLEDwithTimer.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\001-BlinkLEDwithTimer\001-BlinkLEDwithTimer.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\001-BlinkLEDwithTimer\001-BlinkLEDwithTimer.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\001-BlinkLEDwithTimer\001-BlinkLEDwithTimer.asm</FILE><LINE>22</LINE></RESET>
+  <LOOP><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\001-BlinkLEDwithTimer\001-BlinkLEDwithTimer.asm</FILE><LINE>86</LINE></LOOP>
+  <NOISE_DELAY><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\001-BlinkLEDwithTimer\001-BlinkLEDwithTimer.asm</FILE><LINE>93</LINE></NOISE_DELAY>
+  <DELAY_BEGIN><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\001-BlinkLEDwithTimer\001-BlinkLEDwithTimer.asm</FILE><LINE>96</LINE></DELAY_BEGIN>
+ </LABELS>
+</ASSEMBLER_INFO>

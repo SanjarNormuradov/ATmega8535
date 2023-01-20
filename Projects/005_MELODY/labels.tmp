@@ -1,0 +1,59 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>81</LINE></RESET>
+  <TIM0_OVF><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1460</LINE></TIM0_OVF>
+  <LOOP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>140</LINE></LOOP>
+  <SMALL_LOOP1><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>151</LINE></SMALL_LOOP1>
+  <BEEP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>224</LINE></BEEP>
+  <SMALL_LOOP2><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>158</LINE></SMALL_LOOP2>
+  <PLAY_MUSICAL_NOTE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>166</LINE></PLAY_MUSICAL_NOTE>
+  <PLAY_MUSICAL_NOTE_LOOP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>175</LINE></PLAY_MUSICAL_NOTE_LOOP>
+  <DELAY><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>184</LINE></DELAY>
+  <ONE_SEC_DELAY_LOOP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>189</LINE></ONE_SEC_DELAY_LOOP>
+  <SUCCESS_BEEP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>198</LINE></SUCCESS_BEEP>
+  <ERROR_BEEP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>217</LINE></ERROR_BEEP>
+  <CHRISTMAS_TREE_BORN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>231</LINE></CHRISTMAS_TREE_BORN>
+  <HAPPY_BIRHTDAY><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>296</LINE></HAPPY_BIRHTDAY>
+  <GRASSHOPPER><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>379</LINE></GRASSHOPPER>
+  <REPEAT_LOOP3><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>383</LINE></REPEAT_LOOP3>
+  <REPEAT_LOOP4><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>401</LINE></REPEAT_LOOP4>
+  <REPEAT_LOOP5><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>419</LINE></REPEAT_LOOP5>
+  <REPEAT_LOOP6><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>437</LINE></REPEAT_LOOP6>
+  <REPEAT_LOOP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>453</LINE></REPEAT_LOOP>
+  <REPEAT_LOOP1><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>459</LINE></REPEAT_LOOP1>
+  <REPEAT_LOOP2><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>465</LINE></REPEAT_LOOP2>
+  <TWO_GEESE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>491</LINE></TWO_GEESE>
+  <TWO_GEESE_FIRST_LOOP><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>495</LINE></TWO_GEESE_FIRST_LOOP>
+  <GOOD_NIGHT_BABY><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>558</LINE></GOOD_NIGHT_BABY>
+  <SMILE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>708</LINE></SMILE>
+  <CHUNGA_CHANGA><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>888</LINE></CHUNGA_CHANGA>
+  <LITTLE_CHRISTMAS_TREE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1050</LINE></LITTLE_CHRISTMAS_TREE>
+  <JINGLE_BELLS><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1154</LINE></JINGLE_BELLS>
+  <JINGLE_BELLS_FIRST_VERSE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1250</LINE></JINGLE_BELLS_FIRST_VERSE>
+  <JINGLE_BELLS_SECOND_VERSE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1274</LINE></JINGLE_BELLS_SECOND_VERSE>
+  <JINGLE_BELLS_THIRD_VERSE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1298</LINE></JINGLE_BELLS_THIRD_VERSE>
+  <JINGLE_BELLS_FOURTH_VERSE><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1322</LINE></JINGLE_BELLS_FOURTH_VERSE>
+  <JINGLE_BELLS_REFRAIN><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1349</LINE></JINGLE_BELLS_REFRAIN>
+  <JINGLE_BELLS_REFRAIN_LOOP1><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1406</LINE></JINGLE_BELLS_REFRAIN_LOOP1>
+  <JINGLE_BELLS_REFRAIN_LOOP2><FILE>E:\Digital ElectronicsSchemotechnics\AVR Studio\Projects\005_MELODY\005_MELODY.asm</FILE><LINE>1426</LINE></JINGLE_BELLS_REFRAIN_LOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

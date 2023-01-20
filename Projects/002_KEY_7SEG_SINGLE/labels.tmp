@@ -1,0 +1,62 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8535</DEVICE>
+ <WORKING_DIR>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8535def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>31</LINE></RESET>
+  <SLEEP_MODE_ACTIVATE><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>48</LINE></SLEEP_MODE_ACTIVATE>
+  <SLEEP_MODE_ACTIVATE_BEGIN><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>52</LINE></SLEEP_MODE_ACTIVATE_BEGIN>
+  <SLEEP_MODE_ACTIVATE_END><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>60</LINE></SLEEP_MODE_ACTIVATE_END>
+  <LOOP><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>72</LINE></LOOP>
+  <NO_OR_LONG_PRESSED_KEY><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>73</LINE></NO_OR_LONG_PRESSED_KEY>
+  <SET_INPUT_DATA><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>94</LINE></SET_INPUT_DATA>
+  <LONG_PRESSED_KEY><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>75</LINE></LONG_PRESSED_KEY>
+  <PRESSED_KEY><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>133</LINE></PRESSED_KEY>
+  <ZEROin1><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>104</LINE></ZEROin1>
+  <ZEROin2><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>110</LINE></ZEROin2>
+  <ZEROin3><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>116</LINE></ZEROin3>
+  <ZEROin4><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>122</LINE></ZEROin4>
+  <END_SET_INPUT_DATA><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>127</LINE></END_SET_INPUT_DATA>
+  <CLEAR_SEGMENT><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>295</LINE></CLEAR_SEGMENT>
+  <KEYS_SOS><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>172</LINE></KEYS_SOS>
+  <KEYS_123><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>145</LINE></KEYS_123>
+  <KEYS_456><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>154</LINE></KEYS_456>
+  <KEYS_789><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>163</LINE></KEYS_789>
+  <KEY_1><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>181</LINE></KEY_1>
+  <KEY_2><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>188</LINE></KEY_2>
+  <KEY_3><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>195</LINE></KEY_3>
+  <KEY_4><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>202</LINE></KEY_4>
+  <KEY_5><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>209</LINE></KEY_5>
+  <KEY_6><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>216</LINE></KEY_6>
+  <KEY_7><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>223</LINE></KEY_7>
+  <KEY_8><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>230</LINE></KEY_8>
+  <KEY_9><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>237</LINE></KEY_9>
+  <KEY_ASTERISK><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>244</LINE></KEY_ASTERISK>
+  <KEY_0><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>251</LINE></KEY_0>
+  <KEY_HASHTAG><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>258</LINE></KEY_HASHTAG>
+  <SERIAL_TRANSFER><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>269</LINE></SERIAL_TRANSFER>
+  <END_PRESSED_KEY_DETECTION><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>264</LINE></END_PRESSED_KEY_DETECTION>
+  <SERIAL_TRANSFER_BEGIN><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>271</LINE></SERIAL_TRANSFER_BEGIN>
+  <SEND_1><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>283</LINE></SEND_1>
+  <SEND_0><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>274</LINE></SEND_0>
+  <SERIAL_TRANSFER_END><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>291</LINE></SERIAL_TRANSFER_END>
+  <CLEAR_SEGMENT_BEGIN><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>299</LINE></CLEAR_SEGMENT_BEGIN>
+  <CLEAR_SEGMENT_END><FILE>D:\Digital ElectronicsSchemotechnics\AVRStudio Projects\002_KEY_7SEG_SINGLE\002_KEY_7SEG_SINGLE.asm</FILE><LINE>307</LINE></CLEAR_SEGMENT_END>
+ </LABELS>
+</ASSEMBLER_INFO>
